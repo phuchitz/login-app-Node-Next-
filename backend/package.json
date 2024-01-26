@@ -1,0 +1,29 @@
+{
+  "name": "login-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src",
+      "config"
+    ],
+    "ignore": [
+      "test/**/*.test.js"
+    ],
+    "exec": "babel-node"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-cli": "^6.26.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}

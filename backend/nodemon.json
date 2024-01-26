@@ -1,0 +1,6 @@
+{
+    "watch": ["src", "config"],
+    "ignore": ["test/**/*.test.js"],
+    "exec": "babel-node"
+  }
+  
